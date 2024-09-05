@@ -1,3 +1,5 @@
-const somethingGreat = () => {
-    return console.log('somethingGreat');
-}
+const $btn = document.querySelector('button');
+
+$btn.addEventListener('click', (e) => {
+    window.alert('something great happens!!!');
+})
